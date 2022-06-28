@@ -1,0 +1,20 @@
+# editorconfig.org
+root = true
+
+[*]
+# Настройки для ВСЕХ файлов
+indent_style = space
+# Отступ в виде пробела
+indent_size = 2
+# Два пробела
+end_of_line = lf
+# Окончание строки LF, для избежания конфликта с Гит
+charset = utf-8
+# Кодировка для всех файлов
+trim_trailing_whitespace = true
+# Убирает пробелы в конце строки
+insert_final_newline = true
+# Добавляет в конце файла пустую строку
+
+[*.md]
+trim_trailing_whitespace = false
