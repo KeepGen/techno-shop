@@ -1,0 +1,10 @@
+.social {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  &__link {
+    svg:hover {
+      fill: $color-main;
+    }
+  }
+}

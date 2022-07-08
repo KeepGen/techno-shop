@@ -1,0 +1,36 @@
+.goods {
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    gap: 40px 30px;
+  }
+  &__item {
+    min-width: 310px;
+    max-width: 340px;
+  }
+}
+
+.recommended__carousel {
+  position: relative;
+  &_btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    background-color: #D2D2D225;
+    border: 1px solid #D2D2D250;
+    padding: 15px;
+    cursor: pointer;
+    z-index: 99;
+    &:hover {
+      background-color: #D2D2D275;
+    }
+  }
+}
+
+.btn_prev {
+  left: 0;
+}
+.btn_next {
+  right: 0;
+}

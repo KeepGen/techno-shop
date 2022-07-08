@@ -1,0 +1,16 @@
+.copyright {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  margin-top: 50px;
+  gap: 60px;
+  &__website {
+
+  }
+  &__author {
+    display: flex;
+    flex-direction: column;
+    &-item:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+}

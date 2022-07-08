@@ -1,0 +1,38 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  &__list {
+    display: flex;
+    margin: 0 25px;
+    align-items: center;
+  }
+  &__link {
+    border: 2px solid transparent;
+    border-radius: 2px;
+    padding: 7px 14px;
+    &:hover {
+      background-color: #CDCDCD50;
+    }
+    &_active {
+      border: 2px solid $color-main;
+      border-radius: 2px;
+      padding: 7px 14px;
+    }
+  }
+  &__arrow {
+    display: flex;
+    align-items: center;
+    padding: 7px 14px;
+    &_end {
+      fill: $color-grey;
+    }
+    &:hover {
+      fill: $color-main;
+      background-color: #CDCDCD50;
+    }
+  }
+}
